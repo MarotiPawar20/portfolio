@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body
+{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Lato',sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+.navigation-bar
+{
+	margin: 0px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 2;
+}
+.myname
+{
+ font-family: 'Anton', sans-serif;
+ font-family: 'Lato', sans-serif;
+ font-weight: bolder;
+ font-size: 30px;
+ color: #ebaa6e;
+}
+
+.mymenu
+{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+.mymenu:hover
+{
+	color:#e0984a;
+}
+/*#home
+{
+	width: 100vw;
+	margin-top: 70px;
+	height: 400px;
+}*/
+
+.dv
+{
+	height: 500px;
+	width: 100%;
+}
+.info
+{
+	margin-top: 10%;
+	margin-left: 5%;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+.hminfo1
+{
+  font-size: 30px;
+  color: black;
+}
+.hmname
+{
+	font-family: 'Pacifico', cursive;
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #e68250;
+}
+.cont
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+#home
+{
+	width: 100vw;
+	height: 400px;
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-position: 94% -70px;
+}
+
+.rsmbt button
+{
+	height: 50px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	margin: 30px;
+	background-color: #e68250;
+	font-size: 20px;
+	color: white;
+	margin-top: -1%;
+}
+.rsmbt button:hover
+{
+	transform: scale(1.1);
+	transition-duration: 1.5s;
+	border: 5px solid  #e68250;
+	background-color: white;
+	font-weight: bolder;
+	color:  #e68250;
+}
+.hd
+{
+	font-size: 35px;
+	color: royalblue;
+	font-family: Arial Black;
+}
+/*.outerdiv
+{
+	height: 300px;
+	width: 300vw;
+	background-color: lightblue;
+	display: inline;
+}*/
+
+/*.info
+{
+	margin-top: 10%;
+	margin-left: 5%;
+}*/
+#about,#skills
+{
+	height: 300px;
+	width: 100vw;
+	background-color: #fcfcfc;
+}
+#about table
+{
+	margin-top: 30px;
+}
+.co
+{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: justify;
+	text-indent: 20%;
+	line-height: 30px;
+}
+
+.myimg
+{
+	border-radius: 100px;
+	width: 200px;
+}
+.myimg:hover
+{
+	transform: scale(1.2);
+	transition-duration: 2s;
+	box-shadow: 0px 0px 35px #3f86cc;
+}
+.iam
+{
+	border-radius: 100px;
+  height: 200px;
+	width: 200px;
+	margin-top:  -10%;
+	margin-left: 60%;
+
+
+}
+#skills
+{
+	background-color: white;
+	margin-top: 30px;
+	height: 500px;
+}
+#skills table
+{
+	margin-top: 30px;
+}
+.tbl tr td
+{
+	text-align: left;
+	padding-top: 0px;
+}
+.skillshead
+{
+	font-size: 27px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: #e68250;
+	margin-bottom: 40px;
+	text-decoration: underline 2px solid #e68250;
+}
+.td
+{
+	padding: 20px;
+}
+.tbl tr td p
+{
+   font-size: 20px;
+   margin-top: 14px;
+   color: #a1a19c;
+   font-weight: bolder;
+
+
+}
+.card-text
+{
+	color: #8a8987;
+}
+/*.card-img-top
+{
+	width: 200px;
+	height: 200px;
+}*/
+
+.projectcss
+{
+	margin-top: 30px;
+	width: 90%;
+	height: 800px;
+}
+.protitle
+{
+	font-size: 23px;
+	font-weight: bolder;
+	color: black;
+}
+.protitle:hover
+{
+	color: royalblue;
+	text-decoration: underline 2px solid royalblue;
+}
+.card-text small a
+{
+  font-weight: bolder;
+}
+#nextpro
+{
+	margin-top: 20px;
+}
+#contact
+{
+
+	margin-top: 300px;
+	/*width: 500vw;
+	height: 300px;
+	z-index: 2;*/
+}
+.linkedin
+{
+	margin-top: -5px;
+	height: 45px;
+	width: 100px;
+	
+}
+
+
+.hmname,img
+{
+	margin-right: 20px;
+}
